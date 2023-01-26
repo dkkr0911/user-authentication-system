@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>verify email </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/adstyle.css">
+    <link rel="stylesheet" href="css/verify.css">
+</head>
+
+<body>
+    <header class="header">
+
+        <a href="#" class="logo"><span>U</span>secure</a>
+
+        <nav class="navbar">
+            <a href="index.html">home</a>
+        </nav>
+
+        <div id="menu-bars" class="fas fa-bars"></div>
+
+    </header>
+
+    <section class="lgn">
+
+        <h1 class="heading"> <span>verify</span>account</h1>
+        <p>we emailed you the four digit otp code to enter the code below to comfirm your email address</p>
+        <form action="api/verify.php" class="user" method="post" enctype="multipart/form-data">
+            <div class="dkBox">
+                <input type="text" name="user_otp" placeholder="enter otp" required="required"><br>
+            </div>
+
+            <input type="submit" value="verify" class="btn">
+            <br> <br>
+            <a href=""></a>
+        </form>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+.lgn form .dkBox {
+    display: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.lgn form .dkBox input {
+    width: 49%;
+}
+
+.lgn form .dkBox input {
+    width: 30%;
+    background: rgb(94, 92, 92);
+    border-radius: .5rem;
+    padding: 1rem;
+    margin: .7rem 0;
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: none;
+    text-align: center;
+}
+
+.lgn form .dkBox input::placeholder {
+    color: #eee;
+    text-transform: capitalize;
+}
+
+.lgn p {
+    text-align: center;
+    color: #fff;
+    text-transform: lowercase;
+    font-size: 4mm;
+}
+
+.otp_field::-webkit-inner-spin-button,
+.otp_field::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.otp_field:valid {
+    border-color: burlywood;
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.25);
+}

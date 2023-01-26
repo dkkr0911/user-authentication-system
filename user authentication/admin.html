@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>user-login</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/adstyle.css">
+</head>
+
+<body>
+    <header class="header">
+
+        <a href="#" class="logo"><span>u</span>vento</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#price">price</a>
+            <a href="#contact">contact</a>
+            <a href="user.html">user</a>
+        </nav>
+
+        <div id="menu-bars" class="fas fa-bars"></div>
+
+    </header>
+
+    <section class="lgn">
+
+        <h1 class="heading"> <span>Admin</span> login </h1>
+        <form action="api/admin.php" class="user" method="post" enctype="multipart/form-data">
+            <div class="inputBox">
+
+                <input type="text" name="username" placeholder="Username" required="required"><br>
+                <input type="password" name="password" placeholder="Password" required="required">
+            </div>
+            <input type="submit" value="login" class="btn">
+
+        </form>
+    </section>
+    <script src="" async defer></script>
+</body>
+
+</html>
